@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title></title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	* {
+	  box-sizing: border-box;
+	}
+
+	body {
+	  font-family: Arial, Helvetica, sans-serif;
+      background-color: rgb(20, 19, 19);
+	}
+
+	/* Style the header */
+	header {
+	  background-color: rgb(105, 102, 102);
+	  padding: 20px;
+	  text-align: center;
+	  font-size: 35px;
+	  color: rgb(239, 236, 236);
+	}
+
+	/* Create two columns/boxes that floats next to each other */
+	nav {
+	  float: left;
+	  width: 25%;
+	  background: rgb(136, 131, 131);
+	  padding: 20px;
+
+	}
+
+	/* Style the list inside the menu */
+	nav ul {
+	  list-style-type: none;
+	  padding: 0;
+	}
+
+	article {
+	  float: left;
+	  padding: 20px;
+	  width: 75%;
+	  background-color: #777373;
+	}
+
+	/* Clear floats after the columns */
+	section::after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+
+	/* Style the footer */
+	footer {
+	  background-color: rgb(104, 101, 101);
+	  padding: 10px;
+	  text-align: center;
+	  color: rgb(232, 227, 227);
+      font-size: 35px;
+	}
+
+	/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+	@media (max-width: 600px) {
+	  nav, article {
+		width: 100%;
+		height: auto;
+	  }
+	}
+	</style>
+</head>
+	<body>
+		<header>
+			<img src="COMUNICADO+OFICIALThumb,25.jpg" width="10%" height="10%" align="right">
+			<h2>Real Madrid</h2>
+		</header>
+
+		<section>
+		  <nav>
+			<ul>
+			  <li>Prestasi Real Madrid<a href="Prestasi.html">(Klik disini)</a></li>
+			  <br>
+			  <li>Nama-nama pemain<a href="Nama.Html">(Klik disini)</a></li>
+			  <br>
+			  <li>Highlight pertandingan<a href="Vidio.html">(Klik disini)</a></li>
+			</ul>
+		  </nav>
+		  
+		  <article>
+			<h1>Sejarah Club Real Madrid :</h1>
+			<p>Real Madrid, adalah klub sepak bola profesional yang berbasis di Madrid, Spanyol. Didirikan pada tahun 1902 sebagai Madrid Football Club, secara tradisional mengenakan kostum kandang putih. Kata Real ("dari kerajaan") Spanyol dan dianugerahkan ke klub oleh Raja Alfonso XIII pada tahun 1920 bersama-sama dengan mahkota kerajaan di lambang klub. Klub ini telah memainkan pertandingan kandang di Stadion Santiago Bernabéu dengan kapasitas 85.454 di pusat kota Madrid sejak tahun 1947.</p>
+		</section>
+		<div class="Img" align="center">
+			<img src="sporting-news-2022-photo-with-watermark-1d0b8060-4915-4240-b315-28555fa3e661.png" height="50%" width="50%">
+
+		</div>
+
+		<footer>
+		  <p>By:Arya Rezagama</p>
+		</footer>
+	</body>
+</html>
+
